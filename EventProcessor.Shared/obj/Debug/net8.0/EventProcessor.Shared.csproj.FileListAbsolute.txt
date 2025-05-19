@@ -1,0 +1,12 @@
+D:\Work\gen_task\order_event_processor\EventProcessor.Shared\bin\Debug\net8.0\EventProcessor.Shared.deps.json
+D:\Work\gen_task\order_event_processor\EventProcessor.Shared\bin\Debug\net8.0\EventProcessor.Shared.dll
+D:\Work\gen_task\order_event_processor\EventProcessor.Shared\bin\Debug\net8.0\EventProcessor.Shared.pdb
+D:\Work\gen_task\order_event_processor\EventProcessor.Shared\obj\Debug\net8.0\EventProcessor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\gen_task\order_event_processor\EventProcessor.Shared\obj\Debug\net8.0\EventProcessor.Shared.AssemblyInfoInputs.cache
+D:\Work\gen_task\order_event_processor\EventProcessor.Shared\obj\Debug\net8.0\EventProcessor.Shared.AssemblyInfo.cs
+D:\Work\gen_task\order_event_processor\EventProcessor.Shared\obj\Debug\net8.0\EventProcessor.Shared.csproj.CoreCompileInputs.cache
+D:\Work\gen_task\order_event_processor\EventProcessor.Shared\obj\Debug\net8.0\EventProcessor.Shared.sourcelink.json
+D:\Work\gen_task\order_event_processor\EventProcessor.Shared\obj\Debug\net8.0\EventProcessor.Shared.dll
+D:\Work\gen_task\order_event_processor\EventProcessor.Shared\obj\Debug\net8.0\refint\EventProcessor.Shared.dll
+D:\Work\gen_task\order_event_processor\EventProcessor.Shared\obj\Debug\net8.0\EventProcessor.Shared.pdb
+D:\Work\gen_task\order_event_processor\EventProcessor.Shared\obj\Debug\net8.0\ref\EventProcessor.Shared.dll

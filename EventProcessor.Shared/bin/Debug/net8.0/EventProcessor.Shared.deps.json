@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "EventProcessor.Shared/1.0.0": {
+        "runtime": {
+          "EventProcessor.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EventProcessor.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

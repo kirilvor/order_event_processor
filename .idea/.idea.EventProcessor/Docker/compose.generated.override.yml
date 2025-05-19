@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  ordereventprocessor:
+    build:
+      context: "D:\\Work\\gen_task\\order_event_processor"
+      dockerfile: "OrderEventProcessor/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/OrderEventProcessor.dll"
+    environment:
+      DOTNET_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "ordereventprocessor:dev"
+    ports: []
+    volumes:
+    - "D:\\Work\\gen_task\\order_event_processor\\OrderEventProcessor:/app:rw"
+    - "D:\\Work\\gen_task\\order_event_processor:/src:rw"
+    - "C:\\Users\\kiril\\.nuget\\packages:/home/app/.nuget/packages"
+    working_dir: "/app"

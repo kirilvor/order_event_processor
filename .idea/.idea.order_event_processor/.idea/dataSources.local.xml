@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="RD-251.23774.437">
+    <data-source name="ordersdb@localhost" uuid="d489ac9a-a47d-422a-93e0-eb83fa19dc91">
+      <database-info product="PostgreSQL" version="17.4" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.7.3" dbms="POSTGRES" exact-version="17.4" exact-driver-version="42.7">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>pgusername</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database" qname="ordersdb" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>
