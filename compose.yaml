@@ -1,0 +1,32 @@
+﻿services:
+  ordereventprocessor:
+    image: ordereventprocessor
+    build:
+      context: .
+      dockerfile: OrderEventProcessor/Dockerfile
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: username
+      RABBITMQ_DEFAULT_PASS: password
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+  postgres:
+    image: postgres:alpine
+    container_name: postgres
+    ports:
+      - "5430:5432"
+    environment:
+      POSTGRES_USER: pgusername
+      POSTGRES_PASSWORD: pgpassword
+      POSTGRES_DB: ordersdb
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
+  rabbitmq_data:
